@@ -6,6 +6,19 @@
   transform: scale(.5);
 }
 
+.transition {
+  width: 100px;
+  height: 100px;
+  background: rgba(255,0,0,1);
+  transition-property: transform, background;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+
+.transition:hover {
+  transform: rotate(180deg);
+}
+
 html {
   font-size: 62.5%;
 }
